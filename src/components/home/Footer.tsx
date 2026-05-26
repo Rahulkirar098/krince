@@ -15,7 +15,7 @@ export default function Footer() {
           <div className="k-footer__brand">
             <a className="k-logo" href="#top">
               <span className="k-logo__mark"><Sparkles size={16} /></span>
-              Krince<span style={{ opacity: 0.5 }}>.in</span>
+              Krince.in
             </a>
             <p>A premium engineering & design studio crafting digital products for ambitious teams.</p>
           </div>

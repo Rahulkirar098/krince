@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import {
-  Smartphone, Globe, Server, Brain, Palette, Megaphone, ArrowRight,
+  Smartphone, Globe, Server, Brain, Palette, Megaphone
 } from "lucide-react";
 import { fadeUp, stagger } from "./animations";
 
@@ -57,7 +57,6 @@ export default function Services({ onNavClick }: ServicesProps) {
               <div className="k-service__icon"><s.icon size={20} /></div>
               <h3>{s.title}</h3>
               <p>{s.desc}</p>
-              <span className="k-service__arrow">Learn more <ArrowRight size={14} /></span>
             </motion.a>
           ))}
         </motion.div>

@@ -21,7 +21,7 @@ export default function Header({ scrolled, active, onNavClick }: HeaderProps) {
       <div className="k-container k-nav__inner">
         <a className="k-logo" href="#top" onClick={(e) => onNavClick(e, "top")}>
           <span className="k-logo__mark"><Sparkles size={16} /></span>
-          Krince<span style={{ opacity: 0.5 }}>.in</span>
+          Krince.in
         </a>
         <nav className="k-nav__links">
           {NAV_LINKS.map((l) => (
